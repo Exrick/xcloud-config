@@ -6,14 +6,6 @@ jasypt:
 server:
   port: 1004
 
-eureka:
-  instance:
-    ip-address: 127.0.0.1
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1000/eureka/
-
 spring:
   application:
     name: base-server
@@ -64,10 +56,5 @@ swagger:
     name: Exrick
     url: http://blog.exrick.cn
     email: 1012139570@qq.com
-
-# 关闭Spring Security
-#security:
-#  basic:
-#    enabled: false
 
 
